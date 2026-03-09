@@ -2,14 +2,44 @@
 <html>
     <head>
         <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 30px;
+            color: #000;
+        }
         #heading{
             text-align: center;
                 }
+        #daftar{
+            text-align: center;
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
 
-        table,td{
+        table{
             border: 1px solid black;
             padding: 3px;
+            width: 100%;
                 }
+        td{
+            border: 1px solid black;
+            padding: 3px;
+        
+                }
+        .footer {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 1em;
+        }
+        .peer-reviews-heading {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+    
 
         </style>
 
@@ -17,7 +47,10 @@
     <body>
         <div id="heading">
         <h1>John Doe</h1>
-        <p>Home|Projects|Blogs|Contact</p>
+        <div id="daftar">
+            <p>Home | Projects | Blogs | Contact</p>
+        </div>
+        
         <h3> Web Developer and Designer</h3>
     </div>
     <table>
@@ -93,7 +126,7 @@
         </tr>
     
     </table>
-    <h3> Peer Reviews</h3>
+    <div class="peer-reviews-heading">Peer Reviews</div>
     <table>
         <td>
             <p>John Doe consistently delivers high-<br>
@@ -118,6 +151,10 @@
             </p>
         </td>
     </table>
+   
+    <div class="footer">
+        &copy; [2025] All rights reserved by John Doe
+    </div>
 
     </body>
 
